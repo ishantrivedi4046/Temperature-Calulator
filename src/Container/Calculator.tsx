@@ -38,7 +38,7 @@ const Calculator:React.FunctionComponent = ()=>{
 
     return (
         <div>
-            <h3 className='text-center mt-12 font-semibold text-xl'>Temperature Calculator</h3>
+            <h3 className='text-center mt-12 font-semibold text-xl'>Hotness Calculator</h3>
             <div className = 'p-16 m-16 border-4 border-red-400 flex justify-center'>
                 <Temperature scale='c' temp={tempCelsius} changedTemp={changedTempHandler}/>
                 <Temperature scale='f' temp={TempFarenheit} changedTemp={changedTempHandler}/>
