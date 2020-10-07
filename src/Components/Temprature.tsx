@@ -9,7 +9,7 @@ const temperature: React.FunctionComponent<Props> = (props) => {
   let heading: string = "";
 
   if (props.scale === "c") heading = "Celsius";
-  else heading = "abh aye";
+  else heading = "soft reset done";
 
   return (
     <div className="ml-4">
